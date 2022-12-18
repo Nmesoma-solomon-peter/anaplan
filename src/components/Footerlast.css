@@ -1,0 +1,14 @@
+.Footerlast{
+    background-color: #485478;
+    color: #fff;
+}
+.ftlast{
+    justify-content: space-between;
+}
+.ftlasta{
+    text-decoration: none;
+    color: #fff;
+}
+.ftlasta:hover{
+    color:#3C67EA;
+}

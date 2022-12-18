@@ -1,0 +1,21 @@
+.postnav {
+  /* position: relative; */
+  background: url("/src/assets/gradientimg.png") center center;
+  height: 10vh;
+  /* margin-bottom: 40px; */
+}
+.gradp {
+  /* position:absolute; */
+  /* top:10; */
+  color: #fff;
+}
+.gradinner {
+  height: 100%;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+.gradinner__btn {
+  background-color: #6c1180;
+}

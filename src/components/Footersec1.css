@@ -1,0 +1,20 @@
+.Footersec1{
+    background-color: #0B2265;
+    color:#fff
+}
+.footersec1a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footersec1a:hover{
+    color: #fff;
+}
+.footericonrow{
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.fticon{
+    width: 23px;
+}

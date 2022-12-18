@@ -1,0 +1,26 @@
+.section4{
+    align-items: center;
+    text-align: center;
+}
+.sec4__heading{
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 18% 2% 18%;
+
+    /* padding: 0% 10% 0% 10%; */
+
+}
+.sec4__h3{
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}    /* margin: 2% 10% 2% 8%; */
+.line{
+    display: block;
+    border-bottom: 2px solid #fff;
+    margin-top: 5%;
+    margin-left: 2%;
+    align-items: center;
+    width: 80%;
+}

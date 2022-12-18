@@ -1,0 +1,19 @@
+.banner {
+  background: url("/src/assets/bannerimg.png") center center;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-position:center;
+  object-fit: contain;
+  background-size:cover;
+  padding-left: 80px;
+  padding-top: 150px;
+
+}
+
+.banner__content{
+  flex-direction: column;
+  width:600px
+}
+.bcp{
+  width: 300px;
+}
