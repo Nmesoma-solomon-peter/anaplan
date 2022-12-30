@@ -9,3 +9,21 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:1028px) {
+    .pbrow{
+        display: flex;
+        flex-direction: column;
+        margin-top: -120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pstp{
+        width:120px;
+        text-align: center;
+        margin-left: 70px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 17px;
+        }
+}

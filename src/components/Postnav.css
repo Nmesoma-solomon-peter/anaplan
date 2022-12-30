@@ -19,3 +19,31 @@
 .gradinner__btn {
   background-color: #6c1180;
 }
+
+
+@media (max-width:1028px) {
+  .postnav{
+    height: 180px;
+    width: 100%;
+    background-image: linear-gradient(to right, #6c1180
+    ,#2A0944, #00005C);
+
+  }
+  .gradinner{
+    display: flex;
+    flex-direction: column;
+    padding:2% 5% 2% 3%;
+    margin: 1% 6%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .gradp{
+    font-size: 20px;
+    display: inline-block;
+    
+  }
+  .gradinner__btn{
+    display: block;
+  } 
+}

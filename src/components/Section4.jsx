@@ -14,14 +14,16 @@ function Section4() {
                 <h3 className='text-white sec4__h3'>Analysts recognize Anaplan as game-changing for performance management and modernizing FP&A</h3>
                 <span className='line'></span>
             </div>
-            <div className='row align-items-center justify-content-center me-5 mt-5 mb-5'>
-                <div className='col col-md-2'> <img src={sec41} alt='sec41' /></div>
-                <div className='col col-md-2'> <img src={sec42} alt='sec42' /></div>
-                <div className='col col-md-2'> <img src={sec43} alt='sec43' /></div>
-                <div className='col col-md-2'> <img src={sec44} alt='sec44' /></div>
-                <div className='col col-md-2'> <img src={sec45} alt='sec45' /></div>
-                <div className='col col-md-2'> <img src={sec46} alt='sec46' /></div>
-            </div>
+            {/* <div className='align-items-center  me-5 mt-5 mb-5'> */}
+                <div className='row row row-cols-2 row-cols-sm-2 row-cols-md-3 mt-5 mb-5 g-3'>
+                    <div className='col col-md-2 '> <img src={sec41} alt='sec41'  className='companylog'/></div>
+                    <div className='col col-md-2 '> <img src={sec42} alt='sec42'  className='companylog' /></div>
+                    <div className='col col-md-2 '> <img src={sec43} alt='sec43'  className='companylog' /></div>
+                    <div className='col col-md-2'> <img src={sec44} alt='sec44'  className='companylog'/></div>
+                    <div className='col col-md-2 '> <img src={sec45} alt='sec45' /></div>
+                    <div className='col col-md-2 '> <img src={sec46} alt='sec46'  className='companylog'/></div>
+                </div>
+            {/* </div> */}
             <button type="button" className="btn btn-outline-primary bg-white btn-sm header__btn mt-3 mb-5">See our recognitions</button>
         </div>
     )

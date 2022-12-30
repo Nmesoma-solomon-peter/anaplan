@@ -10,19 +10,19 @@ function Postbanner() {
             <div className='row  pbrow'>
                 <div className='col col-md-3'>
                     <img src={anaplan} alt='ana action' />
-                    <p>See Anaplan in action</p>
+                    <p className='pstp'>See Anaplan in action</p>
                 </div>
                 <div className='col col-md-3'>
                     <img src={anafin} alt='anafin' />
-                    <p>Finance Solutions</p>
+                    <p className='pstp'>Finance Solutions</p>
                 </div>
                 <div className='col col-md-3'>
                     <img src={anasales} alt='anasales' />
-                    <p>Sales Solutions</p>
+                    <p className='pstp'>Sales Solutions</p>
                 </div>
                 <div className='col col-md-3'>
                     <img src={anasup} alt='anasup'/>
-                    <p>Supply Chain Solutions</p>
+                    <p className='pstp'>Supply Chain Solutions</p>
                 </div>
             </div>
         </div>

@@ -24,3 +24,28 @@
     align-items: center;
     width: 80%;
 }
+.companylog{
+    width: 150px;
+}
+@media (max-width:1028px) {
+    .sec4__heading {
+        width: 350px;
+        margin-left: 9%;
+    }
+    .sec4__h3{
+        width: 350px;
+        padding-left: 0%;
+        margin-left: -8%;
+        font-size: 20px;
+    }
+    .line{
+        width: 350px;
+        padding-left: 0%;
+        margin-left: -8%;
+    }
+    /* .companylog{
+        font-size: 5px !important;
+        width: 10px;
+
+    } */
+}
