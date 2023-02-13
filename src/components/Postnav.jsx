@@ -4,7 +4,7 @@ import gradientimg from '../assets/gradientimg.png'
 
 function Postnav() {
   return (
-    <div className='postnav'>
+    <div className='postnav container-fluid'>
       {/* <img src={gradientimg} alt="gradimg" className='gradimg .bg-image'/> */}
       <div className='d-flex gradinner'>
         <p className='gradp'>What do Gartner, and IDC have i common? They all named Anaplan planning leader. </p>

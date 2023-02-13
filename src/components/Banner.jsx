@@ -3,7 +3,7 @@ import './Banner.css'
 
 function Banner() {
   return (
-    <div className='banner pt-4 pb-4'>
+    <div className='banner pt-4 pb-4 container-fluid'>
       <div className='banner__content'>
         <h1 className='text-white bannerh1'>Be fearless</h1>
         <p className='text-white bcp'>Empower your decision-making by connecting data and enhancing collaboration, so you can shape your future with confidence.</p>

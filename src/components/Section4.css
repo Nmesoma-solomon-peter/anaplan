@@ -27,25 +27,34 @@
 .companylog{
     width: 150px;
 }
-@media (max-width:1028px) {
+@media (max-width:576px) {
     .sec4__heading {
-        width: 350px;
-        margin-left: 9%;
+        width: 100%;
+        margin-left: 0%;
     }
     .sec4__h3{
-        width: 350px;
-        padding-left: 0%;
-        margin-left: -8%;
-        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+        font-size: 30px;
+        justify-self: center;
     }
     .line{
-        width: 350px;
-        padding-left: 0%;
-        margin-left: -8%;
+        width: 50%;
+        margin: auto;
+        /* padding-left: 0%; */
+        /* margin-left: -8%; */
     }
-    /* .companylog{
-        font-size: 5px !important;
-        width: 10px;
-
-    } */
+    .logsec{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 4% 20%;
+    }
+    .companylog{
+        /* font-size: 5px !important; */
+        display: block;
+        width: 200px;
+    }
 }

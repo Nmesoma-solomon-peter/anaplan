@@ -7,8 +7,8 @@ function Section3() {
     return (
         <div className='section3 container-fluid pb-5 pt-5'>
             <div className='sec3__heading'>
-                <p className='text-secondary'>In a dynamic, ever-changing and fast-moving landscape</p>
-                <h3 className='text-secondary sec3__h3'>Anaplan connects your strategy to your outcomes and drives accountability connected to a single source of truth</h3>
+                <p className='text-secondary  sec3headingp'>In a dynamic, ever-changing and fast-moving landscape</p>
+                <h3 className='text-secondary sec3__h3  sec3headingh3'>Anaplan connects your strategy to your outcomes and drives accountability connected to a single source of truth</h3>
             </div>
             {/* sec3 part2 */}
             <div className='row sec3__part2 align-items-center'>

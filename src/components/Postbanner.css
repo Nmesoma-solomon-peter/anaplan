@@ -1,29 +1,32 @@
-.postbanner{
-    background-color: #0B2265;
-    padding: 4% 20% 4% 20%;
-    text-align: center;
-    color: #fff;
+.postbanner {
+  background-color: #0b2265;
+  padding: 4% 20% 4% 20%;
+  text-align: center;
+  color: #fff;
 }
-.pbrow{
-    /* text-align: center; */
-    justify-content: center;
-    align-items: center;
+.pbrow {
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width:1028px) {
-    .pbrow{
+@media (max-width: 576px) {
+  .anaction {
+    justify-content: center;
+    align-items: center;
+  }
+  /* .pbrow{
         display: flex;
         flex-direction: column;
         margin-top: -120px;
-        justify-content: center;
-        align-items: center;
-    }
-    .pstp{
-        width:120px;
-        text-align: center;
-        margin-left: 70px;
-        margin-bottom: 30px;
-        font-weight: bold;
-        font-size: 17px;
-        }
+       
+    } */
+  .pstp {
+    width: 166px;
+    /* text-align: center; */
+    /* margin-left: 70px; */
+    /* margin-bottom: 30px; */
+    font-weight: bold;
+    font-size: 17px;
+  }
 }

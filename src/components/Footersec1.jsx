@@ -12,7 +12,7 @@ function Footersec1() {
                 <div className='col col-md-6'>
                     <div className='d-flex mt-5 mb-5'>
                         <div>
-                            <h6>QUICK LINKS</h6>
+                            <h6 className='footerh6'>QUICK LINKS</h6>
                             <a href='/' className='footersec1a me-5'>Why Anaplan</a>
                             <a href='/' className='footersec1a me-5'>Connected Planning</a>
                             <a href='/' className='footersec1a me-5'>Customer Stories</a>
@@ -23,7 +23,7 @@ function Footersec1() {
                         </div>
 
                         <div>
-                            <h6>PLATFORM</h6>
+                            <h6 className='footerh6'>PLATFORM</h6>
                             <a href='/' className='footersec1a me-5'>User Experience</a>
                             <a href='/' className='footersec1a me-5'>Intelligence</a>
                             <a href='/' className='footersec1a me-5'>Planning and Modelling</a>
@@ -33,7 +33,7 @@ function Footersec1() {
                             <a href='/' className='footersec1a me-5'>Predictive Insights</a>
                         </div>
                         <div>
-                            <h6>SOLUTIONS</h6>
+                            <h6 className='footerh6'>SOLUTIONS</h6>
                             <a href='/' className='footersec1a'>Finance</a>
                             <a href='/' className='footersec1a'>Sales</a>
                             <a href='/' className='footersec1a'>Supply Chain</a>
@@ -45,7 +45,7 @@ function Footersec1() {
                 <div className='col col-md-6'>
                     <div className='d-flex mt-5 mb-5'>
                         <div>
-                            <h6 >RESOURCES</h6>
+                            <h6 className='footerh6'>RESOURCES</h6>
                             <a href='/' className='footersec1a me-5'>Resource Library</a>
                             <a href='/' className='footersec1a me-5'>Blog</a>
                             <a href='/' className='footersec1a me-5'>Live Events & Webinars</a>
@@ -59,7 +59,7 @@ function Footersec1() {
                         </div>
 
                         <div>
-                            <h6>COMPANY</h6>
+                            <h6 className='footerh6'>COMPANY</h6>
                             <a href='/' className='footersec1a me-5'>About us</a>
                             <a href='/' className='footersec1a me-5'>Leadership</a>
                             <a href='/' className='footersec1a me-5'>Newsroom</a>
@@ -69,7 +69,7 @@ function Footersec1() {
                             <a href='/' className='footersec1a me-5'>Contact us</a>
                         </div>
                         <div>
-                            <h6>ALSO OF INTEREST</h6>
+                            <h6 className='footerh6'>ALSO OF INTEREST</h6>
                             <a href='/' className='footersec1a'>How to Forcast Demand</a>
                             <a href='/' className='footersec1a'>for new Products</a>
                             <a href='/' className='footersec1a'>Post-transformation, digital-</a>

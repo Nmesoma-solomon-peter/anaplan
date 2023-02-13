@@ -21,7 +21,10 @@
 }
 
 
-@media (max-width:1028px) {
+@media (max-width:576px) {
+  .container-fluid{
+    padding: 1% 4% 1%;
+}
   .postnav{
     height: 180px;
     width: 100%;
@@ -41,6 +44,7 @@
   .gradp{
     font-size: 20px;
     display: inline-block;
+
     
   }
   .gradinner__btn{
